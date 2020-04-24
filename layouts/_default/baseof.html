@@ -1,0 +1,17 @@
+{{- if .Site.IsServer -}} {{ "<!-- _default/baseof.html -->" | safeHTML }} {{- end -}}
+<!DOCTYPE html>
+<html lang="en">
+{{ partial  "head.html" . }}
+<body>
+
+  {{ block "navigation" . }} {{ partial  "navigation.html" . }} {{ end }}
+
+  {{ block "main" . }}
+    {{ .Content | safeHTML }}
+  {{ end }}
+
+  {{ block "footer" . }} {{ partial  "footer.html" . }} {{ end }}
+  
+</body>
+</html>
+{{- if .Site.IsServer -}} {{ "<!-- END _default/baseof.html -->" | safeHTML }} {{- end -}}

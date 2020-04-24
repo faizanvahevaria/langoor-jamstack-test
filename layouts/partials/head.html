@@ -1,0 +1,38 @@
+{{- if .Site.IsServer -}} {{ "<!-- partials/head.html -->" | safeHTML }} {{- end -}}
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  {{ block "meta_tags" . }}{{end}}  
+
+  {{ hugo.Generator }}
+  {{- template "_internal/opengraph.html" . -}}
+  {{- template "_internal/schema.html" . -}}
+  {{- template "_internal/twitter_cards.html" . -}}
+
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
+
+  {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+
+  <title>{{ .Title }} | {{ .Site.Title }}</title>
+
+  
+  {{- if .Site.IsServer -}}
+    {{ "<!-- Load CSS without minification -->" | safeHTML }}
+    {{ $mainCSS := resources.Get "css/main.scss" | toCSS ( dict "enableSourceMap" true )  }}
+    <link rel="stylesheet" media="screen" type="text/css" href="{{ $mainCSS.Permalink }}" />
+  
+  {{ else }}
+
+    {{ "<!-- Load CSS with minification and fingerprinting -->" | safeHTML }}
+    {{ $mainCSS := resources.Get "css/main.scss" | toCSS ( dict "enableSourceMap" false ) | minify | fingerprint }}
+    <link rel="stylesheet" media="screen" type="text/css" href="{{ $mainCSS.Permalink }}" />
+    
+  {{- end -}}
+
+  <link rel="icon" href="{{"/favicon.ico" | relURL}}" type="image/ico">
+ 
+</head>
+{{- if .Site.IsServer -}} {{ "<!-- END partials/head.html -->" | safeHTML }} {{- end -}}

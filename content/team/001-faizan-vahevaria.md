@@ -2,7 +2,7 @@
 title: Faizan Vahevaria
 date: 2020-04-23T14:59:10+05:30
 
-person_image: /img/team/faizan-vahevaria.jpg
+person_image: /img/team/faizan-vahevaria.png
 first_name: Faizan
 last_name: Vahevaria
 job_title: Front-End Developer, JAMStack, Hugo, Jekyll
@@ -18,7 +18,30 @@ description: Web Developer with over 6 years of experience mostly focusing on Fr
 skills:
   - "HTML"
   - "CSS"
+  - "JAMstack"
+  - "Hugo"
   - "JavaScript"
+  - "jQuery"
+  - "Bootstrap"
+  - "SASS"
+  - "Jekyll"
+  - "ReactJS"
+  - "SEO"
+  - "Netlify"
+  - "CircleCI"
+  - "GitHub"
+  - "GitLab"
+  - "NodeJS"
+  - "REST API"
+  - "GraphQL"
+  - "Cucumber"
+  - "Adobe Apps"
+  - "Sentry"
+  - "NPM"
+  - "Gulp"
+  - "AWS"
+  - "Azure"
+  - "Communication"
 
 experience: "6 years"
 github_username: "faizanvahevaria"
