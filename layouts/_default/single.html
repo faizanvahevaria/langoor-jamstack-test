@@ -42,9 +42,6 @@
           <div class="s-inner-title snacks-title mb-70">
             <span>Successful Projects</span>
             <h2>{{ .Params.main_project_heading }}</h2>
-            <p>A well-executed brand strategy affects all aspects of a business and is connected to consumer needs &
-              emotions.
-            </p>
           </div>
           {{ range .Params.Projects }}
           <div class="single-snacks mb-45">
@@ -53,7 +50,7 @@
             </div>
             <div class="snacks-content">
               <h4>{{ .name }}</h4>
-              <p><a href="{{ .url }}">{{ .url }}</a></p>
+              <p><a href="{{ .url }}" target="_blank">{{ .url }}</a></p>
               <p>{{ .description }}</p>
             </div>
           </div>
