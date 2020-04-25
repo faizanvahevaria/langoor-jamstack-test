@@ -8,14 +8,12 @@
         <div class="s-section-title text-center mb-75">
           <span class="title-border"></span>
           <h2>Team Members</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
           </p>
         </div>
       </div>
     </div>
     <div class="row">
-      {{ range first 3 (where .Site.RegularPages "Type" "team") }}
+      {{ range (where .Site.RegularPages "Type" "team") }}
       <div class="col-lg-4 col-md-6">
         <div class="single-team text-center mb-30">
           <div class="team-img mb-30">
@@ -24,9 +22,6 @@
           <div class="team-info third-team-info mb-20">
             <h5><a href="{{ .RelPermalink }}">{{ .Params.first_name }} {{ .Params.last_name }}</a></h5>
             <span>{{ .Params.job_title }}</span>
-          </div>
-          <div class="team-social third-team-social">
-            <a href="#"><i class="fab fa-github"></i>{{ .Params.github_username }}</a>
           </div>
         </div>
       </div>

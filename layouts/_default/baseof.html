@@ -1,5 +1,7 @@
-{{- if .Site.IsServer -}} {{ "<!-- _default/baseof.html -->" | safeHTML }} {{- end -}}
 <!DOCTYPE html>
+
+{{- if .Site.IsServer -}} {{ "<!-- _default/baseof.html -->" | safeHTML }} {{- end -}}
+
 <html lang="en">
 {{ partial  "head.html" . }}
 <body>
@@ -12,6 +14,10 @@
 
   {{ block "footer" . }} {{ partial  "footer.html" . }} {{ end }}
   
+  {{ block "scripts" . }} {{ partial  "scripts.html" . }} {{ end }}
+  
 </body>
-</html>
+
 {{- if .Site.IsServer -}} {{ "<!-- END _default/baseof.html -->" | safeHTML }} {{- end -}}
+
+\</html>

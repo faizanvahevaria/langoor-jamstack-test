@@ -7,10 +7,8 @@ person_image: /img/team/rupa-odedara.png
 first_name: Rupa
 last_name: Odedara
 job_title: JavaScript, JAMStack, Hugo, Web Animations
-email:
-  - "rupa.odedara.fatah@gmail.com"
-phone:
-  - "+91 97128 13889"
+email: "rupa.odedara.fatah@gmail.com"
+phone: "+91 8758 382878"
 description: I have been working at Fatah Digital for almost a year now and it has been a great learning experience. I joined as an intern and then earned a job at Fatah Digital. I’ve been continuously growing my skills in Web Development. I really enjoy making amazon UIs and always first to accept the opportunity to work on Web Animations and Page Transitions.
 skills:
   - "HTML"

@@ -7,11 +7,9 @@ person_image: /img/team/heena-kariya.png
 first_name: Heena 
 last_name: Kariya
 job_title: JAMStack, Hugo, Web Developer
-email:
-  - "heena.kariya.fatah@gmail.com"
+email: "heena.kariya.fatah@gmail.com"
 
-phone: 
-  - "+91 94287 94129"
+phone: "+91 94287 94129"
   
 description: Started career at Fatah Digital as Web Developer, impressed CEO with dedication and improved skills and got promoted in just 3 months. Leading a team of 2 Web Developers and continuously growing my skills in Web Development. I have 13 months of experience as a Web Developer as of April 2020.
 skills:

@@ -6,12 +6,12 @@ person_image: /img/team/faizan-vahevaria.png
 first_name: Faizan
 last_name: Vahevaria
 job_title: Front-End Developer, JAMStack, Hugo, Jekyll
-email: 
-  - "faizan@fatah.co"
-  - "faizanvahevaria@gmail.com"
+email: "faizanvahevaria@gmail.com"
 
-phone:
-  - "+91 8758 382878"
+phone: "+91 8758 382878"
+
+experience: "6 years"
+github_username: "faizanvahevaria"
 
 description: Web Developer with over 6 years of experience mostly focusing on Front-End using ReactJS and JAMstack websites, juggling between different timezones to serve the clients. Praised by all the clients for Clear Communication.
 
@@ -43,8 +43,6 @@ skills:
   - "Azure"
   - "Communication"
 
-experience: "6 years"
-github_username: "faizanvahevaria"
 
 projects:
   - name: BIPP Inc

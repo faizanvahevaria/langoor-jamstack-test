@@ -1,7 +1,125 @@
 {{ define "main"  }}
 {{- if .Site.IsServer -}} {{ "<!-- _default/single.html -->" | safeHTML }} {{- end -}}
 
-<h1>single.html</h1>
+<main>
+  <!-- team-details -->
+  <section class="team-details pt-120">
+    <div class="container">
+      <div class="team-details-wrap">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="single-team-img">
+              <img src="{{ .Params.person_image }}" alt="{{ .Title }}">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="td-wrap">
+              <div class="td-content">
+                <div class="inner-team-info mb-20">
+                  <span>{{ .Params.job_title }}</span>
+                  <h2>{{ .Params.Title }}</h2>
+                  <p>{{ .Params.Description }}</p>
+                </div>
+                <ul>
+                  <li><span>Experience:</span> {{ .Params.experience }}</li>
+                  <li><span>Email:</span> {{ .Params.email }}</li>
+                  <li><span>Phone:</span> {{ .Params.phone }}</li>
+                  <li><span>FAX:</span> <a href="https://github.com/{{ .Params.github_username }}">https://github.com/{{ .Params.github_username }}</a> </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- team-details-end -->
+  <!-- snacks-experience -->
+  <section class="se-area pt-115 pb-115">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-6 col-lg-6">
+          <div class="s-inner-title snacks-title mb-70">
+            <span>More Snacks Here</span>
+            <h2>How Amazing We Are You Have To See.</h2>
+            <p>A well-executed brand strategy affects all aspects of a business and is connected to consumer needs &
+              emotions.
+            </p>
+          </div>
+          <div class="single-snacks mb-45">
+            <div class="snacks-circular">
+              <input type="text" class="knob" value="0" data-rel="72" data-linecap="round" data-width="135"
+                data-height="135" data-bgcolor="#eaebff" data-fgcolor="#ff8155" data-thickness=".06"
+                data-readonly="true" disabled>
+            </div>
+            <div class="snacks-content">
+              <h4>Brand Identity Solutions</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna
+                aliqua. Ut enim ad minim veniam.</p>
+            </div>
+          </div>
+          <div class="single-snacks">
+            <div class="snacks-circular">
+              <input type="text" class="knob" value="0" data-rel="65" data-linecap="round" data-width="135"
+                data-height="135" data-bgcolor="#eaebff" data-fgcolor="#15ee90" data-thickness=".06"
+                data-readonly="true" disabled>
+            </div>
+            <div class="snacks-content">
+              <h4>Visual Identity Improved</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna
+                aliqua. Ut enim ad minim veniam.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="inner-skill-p pl-15">
+            <div class="s-inner-title snacks-title mb-70">
+              <span>Skills</span>
+              <h2>Here Are Some of My Skills.</h2>
+            </div>
+            <div class="skill-arsenal">
+              {{ range .Params.skills }}
+              <div class="skill-arsenal-item">
+                <p> <img src="/img/list-icon.png" alt=""> {{ . }}</p>
+              </div>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- snacks-experience-end -->
+  <!-- s-cta -->
+  <div class="bottom-cta">
+    <div class="container">
+      <div class="b-cta-wrap">
+        <div class="row align-items-center">
+          <div class="col-xl-6">
+            <div class="bottom-cta-title">
+              <div class="bc-title-icon">
+                <i class="fal fa-envelope"></i>
+              </div>
+              <h3>Get Every Single Updates From Here</h3>
+            </div>
+          </div>
+          <div class="col-xl-6">
+            <form action="#" class="bc-form">
+              <div class="sub-box p-relative">
+                <i class="fal fa-envelope"></i>
+                <input type="email" name="email" placeholder="Enter your email here.">
+                <button><i class="fal fa-paper-plane"></i>Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- s-cta-end -->
+</main>
 
 {{- if .Site.IsServer -}} {{ "<!-- END _default/single.html -->" | safeHTML }} {{- end -}} 
 {{ end }}
