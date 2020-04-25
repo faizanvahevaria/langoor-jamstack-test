@@ -3,6 +3,10 @@ title: Rupa Odedara
 date: 2020-04-23T14:59:10+05:30
 draft: false
 
+main_project_heading: Some of the Successful JAMStack Projects
+
+main_skill_heading: Here Are Some of My Skills.
+
 person_image: /img/team/rupa-odedara.png
 first_name: Rupa
 last_name: Odedara
@@ -42,11 +46,11 @@ projects:
     url: "https://wearecws.com/"
     description: "Building a new design website with all the features and animations for a Cloud Service Company."
   - name: Baadal Enterprise
-    logo: /img/clients/baadal-enterprise-logo.png
+    logo: /img/clients/baadal-enterprise-logo.svg
     url: "https://baadal.co"
     description: "My responsibility was to quickly build a SEO friendly website for Baadal Enterprise and push it live on the server. Then gradually adding more and more pages."
   - name: Forestry.io 
-    logo: /img/clients/forestry-logo.png
+    logo: /img/clients/forestry-logo.svg
     url: "https://forestry.io"
     description: "Build many small websites to show the capabilities of their Headless CMS integration with JAMStack Static Site Generators like Hugo and Jekyll."
   - name: Gardenuity
@@ -54,11 +58,11 @@ projects:
     url: "https://gardenuity.com"
     description: "JAMStack base ecommerce website."
   - name: CardNet
-    logo: /img/clients/cardnet-logo.png
+    logo: /img/clients/cardnet-logo.jpg
     url: "https://card.net.in"
     description: "Digital Visiting Card Application with really cool animation style card templates. The entire app will be based on JAMStack. Work in progress."
   - name: RBCSAI - IIT Madras
-    logo: /img/clients/rbcdsai-iit-madras-logo.png
+    logo: /img/clients/rbcdsai-iit-madras-logo.jpg
     url:
-    descriptiion: "Work in Progress. This website is a complex multi author blog type website with many different sections. My responsibilities are to build the best UX by using really cool animations to make this organization look modern."
+    description: "Work in Progress. This website is a complex multi author blog type website with many different sections. My responsibilities are to build the best UX by using really cool animations to make this organization look modern."
 ---

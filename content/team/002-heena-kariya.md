@@ -3,6 +3,10 @@ title: Heena Kariya
 date: 2020-04-23T14:59:10+05:30
 draft: false
 
+main_project_heading: Some of the Successful JAMStack Projects
+
+main_skill_heading: Here Are Some of My Skills.
+
 person_image: /img/team/heena-kariya.png
 first_name: Heena 
 last_name: Kariya
@@ -34,15 +38,15 @@ github_username: "heenakariya"
 
 projects:
   - name: Thread Learning
-    logo: /img/clients/thread-learning-logo.png
-    url: "https://https://www.threadlearning.com/"
+    logo: /img/clients/thread-learning-logo.svg
+    url: "https://www.threadlearning.com/"
     description: "Worked with Faizan on this project and developed theunderstanding of SEO in Hugo and Static Websites."
   - name: BIPP Inc
-    logo: /img/clients/bipp-inc-logo.png
+    logo: /img/clients/bipp-inc-logo.svg
     url: "https://bipp.io"
     description: "Worked on this JAMStack based documentation website fromscratch. Leading the project on my own. Taking instructions from client directly."
   - name: Couples Resorts UK
-    logo: /img/clients/couple-resorts-uk-logo.png
+    logo: /img/clients/couple-resorts-uk-logo.svg
     url: "http://couplesresorts.co.uk/"
     description: "Ther very first Hugo JAMStack based website I worked on as Web Developer at Fatah Digital. The learning experience was mixed with different feelings because I never built something this massive. Everyday was a new challenge."
   - name: Swabian Instruments 

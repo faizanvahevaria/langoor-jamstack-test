@@ -59,3 +59,22 @@ img {
   margin-top: 4px;
   display: block;
 }
+
+.snacks-circular img {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+  height: auto;
+}
+
+.snacks-content p {
+  margin-bottom: 15px;
+}
+
+.snacks-content p a {
+  color: inherit;
+}
+
+.snacks-content p a:hover {
+  color: #ff8155;
+}

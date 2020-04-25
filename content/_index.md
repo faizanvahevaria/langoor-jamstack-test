@@ -1,5 +1,5 @@
 ---
-title: content/_index.md file
+title: JAMStack Assignment from Langoor - Fatah Digital 
+mainskillheaing: "hello"
 ---
 
-Hi from content/_index.md file

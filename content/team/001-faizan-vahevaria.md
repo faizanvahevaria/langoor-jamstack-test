@@ -2,6 +2,10 @@
 title: Faizan Vahevaria
 date: 2020-04-23T14:59:10+05:30
 
+main_project_heading: Some of the Successful JAMStack Projects
+
+main_skill_heading: Here Are Some of My Skills.
+
 person_image: /img/team/faizan-vahevaria.png
 first_name: Faizan
 last_name: Vahevaria
@@ -46,7 +50,7 @@ skills:
 
 projects:
   - name: BIPP Inc
-    logo: /img/clients/bipp-inc-logo.png
+    logo: /img/clients/bipp-inc-logo.svg
     url: "https://bipp.io"
     description: "Marketing and Documentation website built with Hugo and applying the JAMStack methodology to manage their content. Taken care of all the on-page SEO best practices in order rank well on Google."
 
